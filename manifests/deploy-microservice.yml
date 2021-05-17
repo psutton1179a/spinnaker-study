@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /patti-solo(/|$)(.*)
                         backend:
                             serviceName: patti-solo-microservice-service
                             servicePort: 30201
